@@ -13,7 +13,7 @@ const Home = () => {
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am currently an undergrad student. Brian has passion for web development and I love to work on web application using technologies like
-            React, Tailwind, JavaScript and HTML,CSS.
+            React, Tailwind, JavaScript and HTML,CSS.I'm yet to perfect on C,C++,Java and MySQL which i have had some exposure to.
           </p>
 
           <div>
