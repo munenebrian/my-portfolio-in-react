@@ -4,8 +4,9 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import ruby from "../assets/ruby.png";
+import figma from "../assets/figma1.png";
+import trello from "../assets/trello.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -47,6 +48,24 @@ const Experience = () => {
       title: "GitHub",
       style: "shadow-gray-400",
     },
+    {
+      id: 6,
+      src: ruby,
+      title: "Ruby",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 6,
+      src: figma,
+      title: "Figma",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 6,
+      src: trello,
+      title: "Trello",
+      style: "shadow-gray-400",
+    }
   ];
 
   return (

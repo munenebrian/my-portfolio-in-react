@@ -1,0 +1,557 @@
+#main a {
+  text-decoration: underline;
+}
+
+#main a:hover,
+#main a:focus {
+  text-decoration: none;
+}
+
+#main a.Button,
+#main a.Button--block,
+#main a.btn,
+#main a.ui-tabs-anchor,
+#main .ic-app-crumbs a,
+#main .ic-app-course-menu a {
+  text-decoration: none;
+}
+
+.fis-feedback::after {
+  display: none;
+  content: url(https://curriculum-content.s3.amazonaws.com/thumbs-up.png)
+    url(https://curriculum-content.s3.amazonaws.com/thumbs-up-hover.png)
+    url(https://curriculum-content.s3.amazonaws.com/thumbs-down.png)
+    url(https://curriculum-content.s3.amazonaws.com/thumbs-down-hover.png)
+    url(https://curriculum-content.s3.amazonaws.com/git-logo-gray.png)
+    url(https://curriculum-content.s3.amazonaws.com/git-logo-gray-hover.png)
+    url(https://curriculum-content.s3.amazonaws.com/flag-icon-gray.png)
+    url(https://curriculum-content.s3.amazonaws.com/flag-icon-gray-hover.png)
+    url(https://curriculum-content.s3.amazonaws.com/fork-link.png)
+    url(https://curriculum-content.s3.amazonaws.com/fork-link-hover.png)
+    url(https://curriculum-content.s3.amazonaws.com/aaq-button.png)
+    url(https://curriculum-content.s3.amazonaws.com/aaq-button-hover.png)
+    url(https://curriculum-content.s3.amazonaws.com/aaq-submit-button.png)
+    url(https://curriculum-content.s3.amazonaws.com/aaq-submit-button-hover.png);
+}
+
+.fis-header {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.fis-footer {
+  text-align: center;
+}
+
+.fis-git-link {
+  text-decoration: none;
+}
+
+.fis-git-link img {
+  width: 40px;
+  height: 40px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.fis-feedback {
+  transition: opacity 0.5s, visibility 0.5s, display 0s, height 0.5s ease-out;
+  overflow: hidden;
+}
+
+.fis-feedback a {
+  cursor: pointer;
+}
+
+#thumbsUp {
+  content: url(https://curriculum-content.s3.amazonaws.com/thumbs-up.png);
+}
+
+#thumbsUp:hover {
+  content: url(https://curriculum-content.s3.amazonaws.com/thumbs-up-hover.png);
+}
+
+#thumbsDown {
+  content: url(https://curriculum-content.s3.amazonaws.com/thumbs-down.png);
+}
+
+#thumbsDown:hover {
+  content: url(https://curriculum-content.s3.amazonaws.com/thumbs-down-hover.png);
+}
+
+#repo-img {
+  content: url(https://curriculum-content.s3.amazonaws.com/git-logo-gray.png);
+}
+
+#repo-img:hover {
+  content: url(https://curriculum-content.s3.amazonaws.com/git-logo-gray-hover.png);
+}
+
+#fork-img {
+  max-height: 25px;
+  content: url(https://curriculum-content.s3.amazonaws.com/fork-link.png);
+}
+
+#fork-img:hover {
+  max-height: 25px;
+  content: url(https://curriculum-content.s3.amazonaws.com/fork-link-hover.png);
+}
+
+#issue-img {
+  content: url(https://curriculum-content.s3.amazonaws.com/flag-icon-gray.png);
+}
+
+#issue-img:hover {
+  content: url(https://curriculum-content.s3.amazonaws.com/flag-icon-gray-hover.png);
+}
+
+.survey-link {
+  text-decoration: none;
+}
+
+#questionForm {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#questionInput {
+  text-align: center;
+  visibility: hidden;
+  height: 0;
+  width: 300px;
+  margin: 1em;
+  transition: visibility 0.5s, height 0.5s ease-in;
+}
+
+#supportButton {
+  background-image: url("https://curriculum-content.s3.amazonaws.com/aaq-button.png");
+  background-size: 300px 73px;
+  height: 73px;
+  width: 300px;
+  /* transition: visibility 0.5s, height 0.5s ease-out; */
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+#supportButton:hover {
+  background-image: url("https://curriculum-content.s3.amazonaws.com/aaq-button-hover.png");
+  background-size: 300px 73px;
+}
+
+#questionSubmit {
+  visibility: hidden;
+  display: none;
+  background-image: url("https://curriculum-content.s3.amazonaws.com/aaq-submit-button.png");
+  background-size: 300px 73px;
+  height: 73px;
+  width: 300px;
+  transition: visibility 0.5s, height 0.5s ease-in;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+#questionSubmit:hover {
+  background-image: url("https://curriculum-content.s3.amazonaws.com/aaq-submit-button-hover.png");
+  background-size: 300px 73px;
+}
+
+.tool_launch {
+  height: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.image {
+  max-height: 300px;
+}
+
+.feedback-hidden {
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.no-height {
+  height: 0;
+}
+
+.i-height {
+  height: 40vh;
+}
+
+/* tables */
+#content .user_content table,
+#content .user_content th,
+#content .user_content td {
+  border: 1px solid #aaa;
+}
+
+#content .user_content th,
+#content .user_content td {
+  padding: 2px 8px;
+}
+
+/* headings */
+#content .user_content h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+#content .user_content h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+#content .user_content h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+#content .user_content h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+#content .user_content h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+#content .user_content h6 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* code blocks */
+#content .user_content pre {
+  overflow-y: auto;
+  white-space: pre;
+  border: none;
+  background-color: rgb(222 222 222 / 40%);
+}
+
+/* inline code */
+#content .user_content code {
+  border: none;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+#content .user_content :not(pre) > code {
+  font-size: 85%;
+  background-color: rgb(222 222 222 / 40%);
+  padding: 0.2em 0.4em;
+}
+
+/* syntax highlighting */
+#content .user_content pre.highlight:not(.plaintext) {
+  background: #030416;
+  color: #f8f8f2;
+}
+
+#content .user_content pre.highlight .hll {
+  background-color: #49483e;
+}
+
+/* Comment */
+#content .user_content pre.highlight .c {
+  color: #96a9b2;
+}
+/* Error */
+#content .user_content pre.highlight .err {
+  color: #960050;
+  background-color: #1e0010;
+}
+/* Keyword */
+#content .user_content pre.highlight .k {
+  color: #00efe1;
+}
+/* Literal */
+#content .user_content pre.highlight .l {
+  color: #cea4ff;
+}
+/* Name */
+#content .user_content pre.highlight .n {
+  color: #f8f8f2;
+}
+/* Operator */
+#content .user_content pre.highlight .o {
+  color: #ff6287;
+}
+/* Punctuation */
+#content .user_content pre.highlight .p {
+  color: #f8f8f2;
+}
+/* Comment.Hashbang */
+#content .user_content pre.highlight .ch {
+  color: #96a9b2;
+}
+/* Comment.Multiline */
+#content .user_content pre.highlight .cm {
+  color: #96a9b2;
+}
+/* Comment.Preproc */
+#content .user_content pre.highlight .cp {
+  color: #96a9b2;
+}
+/* Comment.PreprocFile */
+#content .user_content pre.highlight .cpf {
+  color: #96a9b2;
+}
+/* Comment.Single */
+#content .user_content pre.highlight .c1 {
+  color: #96a9b2;
+}
+/* Comment.Special */
+#content .user_content pre.highlight .cs {
+  color: #96a9b2;
+}
+/* Generic.Deleted */
+#content .user_content pre.highlight .gd {
+  color: #ff6287;
+}
+/* Generic.Emph */
+#content .user_content pre.highlight .ge {
+  font-style: italic;
+}
+/* Generic.Inserted */
+#content .user_content pre.highlight .gi {
+  color: #00e582;
+}
+/* Generic.Output */
+#content .user_content pre.highlight .go {
+  color: #96a9b2;
+}
+/* Generic.Prompt */
+#content .user_content pre.highlight .gp {
+  color: #cea4ff;
+  pointer-events: none;
+  user-select: none;
+}
+/* Generic.Strong */
+#content .user_content pre.highlight .gs {
+  font-weight: bold;
+}
+/* Generic.Subheading */
+#content .user_content pre.highlight .gu {
+  color: #96a9b2;
+}
+/* Keyword.Constant */
+#content .user_content pre.highlight .kc {
+  color: #cea4ff;
+}
+/* Keyword.Declaration */
+#content .user_content pre.highlight .kd {
+  color: #00efe1;
+}
+/* Keyword.Namespace */
+#content .user_content pre.highlight .kn {
+  color: #ff6287;
+}
+/* Keyword.Pseudo */
+#content .user_content pre.highlight .kp {
+  color: #00efe1;
+}
+/* Keyword.Reserved */
+#content .user_content pre.highlight .kr {
+  color: #00efe1;
+}
+/* Keyword.Type */
+#content .user_content pre.highlight .kt {
+  color: #00efe1;
+}
+/* Literal.Date */
+#content .user_content pre.highlight .ld {
+  color: #ffdc6b;
+}
+/* Literal.Number */
+#content .user_content pre.highlight .m {
+  color: #cea4ff;
+}
+/* Literal.String */
+#content .user_content pre.highlight .s {
+  color: #ffdc6b;
+}
+/* Name.Attribute */
+#content .user_content pre.highlight .na {
+  color: #00e582;
+}
+/* Name.Builtin */
+#content .user_content pre.highlight .nb {
+  color: #f8f8f2;
+}
+/* Name.Class */
+#content .user_content pre.highlight .nc {
+  color: #00e582;
+}
+/* Name.Constant */
+#content .user_content pre.highlight .no {
+  color: #00efe1;
+}
+/* Name.Decorator */
+#content .user_content pre.highlight .nd {
+  color: #00e582;
+}
+/* Name.Entity */
+#content .user_content pre.highlight .ne {
+  color: #f8f8f2;
+}
+/* Name.Exception */
+#content .user_content pre.highlight .ni {
+  color: #00e582;
+}
+/* Name.Function */
+#content .user_content pre.highlight .nf {
+  color: #00e582;
+}
+/* Name.Label */
+#content .user_content pre.highlight .nl {
+  color: #f8f8f2;
+}
+/* Name.Namespace */
+#content .user_content pre.highlight .nn {
+  color: #f8f8f2;
+}
+/* Name.Other */
+#content .user_content pre.highlight .nx {
+  color: #00e582;
+}
+/* Name.Property */
+#content .user_content pre.highlight .py {
+  color: #f8f8f2;
+}
+/* Name.Tag */
+#content .user_content pre.highlight .nt {
+  color: #ff6287;
+}
+/* Name.Variable */
+#content .user_content pre.highlight .nv {
+  color: #f8f8f2;
+}
+/* Operator.Word */
+#content .user_content pre.highlight .ow {
+  color: #ff6287;
+}
+/* Text.Whitespace */
+#content .user_content pre.highlight .w {
+  color: #f8f8f2;
+}
+/* Literal.Number.Bin */
+#content .user_content pre.highlight .mb {
+  color: #cea4ff;
+}
+/* Literal.Number.Float */
+#content .user_content pre.highlight .mf {
+  color: #cea4ff;
+}
+/* Literal.Number.Hex */
+#content .user_content pre.highlight .mh {
+  color: #cea4ff;
+}
+/* Literal.Number.Integer */
+#content .user_content pre.highlight .mi {
+  color: #cea4ff;
+}
+/* Literal.Number.Oct */
+#content .user_content pre.highlight .mo {
+  color: #cea4ff;
+}
+/* Literal.String.Affix */
+#content .user_content pre.highlight .sa {
+  color: #ffdc6b;
+}
+/* Literal.String.Backtick */
+#content .user_content pre.highlight .sb {
+  color: #ffdc6b;
+}
+/* Literal.String.Char */
+#content .user_content pre.highlight .sc {
+  color: #ffdc6b;
+}
+/* Literal.String.Delimiter */
+#content .user_content pre.highlight .dl {
+  color: #ffdc6b;
+}
+/* Literal.String.Doc */
+#content .user_content pre.highlight .sd {
+  color: #ffdc6b;
+}
+/* Literal.String.Double */
+#content .user_content pre.highlight .s2 {
+  color: #ffdc6b;
+}
+/* Literal.String.Escape */
+#content .user_content pre.highlight .se {
+  color: #cea4ff;
+}
+/* Literal.String.Heredoc */
+#content .user_content pre.highlight .sh {
+  color: #ffdc6b;
+}
+/* Literal.String.Interpol */
+#content .user_content pre.highlight .si {
+  color: #ffdc6b;
+}
+/* Literal.String.Other */
+#content .user_content pre.highlight .sx {
+  color: #ffdc6b;
+}
+/* Literal.String.Regex */
+#content .user_content pre.highlight .sr {
+  color: #ffdc6b;
+}
+/* Literal.String.Single */
+#content .user_content pre.highlight .s1 {
+  color: #ffdc6b;
+}
+/* Literal.String.Symbol */
+#content .user_content pre.highlight .ss {
+  color: #cea4ff;
+}
+/* Name.Builtin.Pseudo */
+#content .user_content pre.highlight .bp {
+  color: #f8f8f2;
+}
+/* Name.Function.Magic */
+#content .user_content pre.highlight .fm {
+  color: #00e582;
+}
+/* Name.Variable.Class */
+#content .user_content pre.highlight .vc {
+  color: #f8f8f2;
+}
+/* Name.Variable.Global */
+#content .user_content pre.highlight .vg {
+  color: #f8f8f2;
+}
+/* Name.Variable.Instance */
+#content .user_content pre.highlight .vi {
+  color: #f8f8f2;
+}
+/* Name.Variable.Magic */
+#content .user_content pre.highlight .vm {
+  color: #f8f8f2;
+}
+/* Literal.Number.Integer.Long */
+#content .user_content pre.highlight .il {
+  color: #cea4ff;
+}
