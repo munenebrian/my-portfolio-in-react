@@ -9,10 +9,10 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm Fullstack Engineer
+            I'm a Fullstack Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am currently an undergrad student. Brian has passion for web development and I love to work on web application using technologies like
+            I am currently an undergrad student taking a bachelor's degree in Mathematics and Computer Science at Jomo Kenyatta Universityof Agriculture and Technology. Brian has a great passion for web development and loves to work on web application using technologies like
             React, Tailwind, JavaScript and HTML,CSS.I'm yet to perfect on C,C++,Java and MySQL which i have had some exposure to.
           </p>
 

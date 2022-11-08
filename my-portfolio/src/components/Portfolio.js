@@ -1,28 +1,28 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import onlineBakery from "../assets/onlinebakery.png";
 import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import weatherApp2 from "../assets/weatherapp2.png";
+import weatherApp from "../assets/weatherapp.png";
+import ecomerce from "../assets/ecomerce.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: onlineBakery,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: weatherApp,
     },
     {
       id: 3,
-      src: navbar,
+      src: weatherApp2,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: ecomerce,
     },
     {
       id: 5,
