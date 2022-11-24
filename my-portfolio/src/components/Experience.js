@@ -6,7 +6,6 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import ruby from "../assets/ruby.png";
 import figma from "../assets/figma1.png";
-import trello from "../assets/trello.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import postgresql from "../assets/postgresql.png"
