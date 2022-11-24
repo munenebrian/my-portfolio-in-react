@@ -9,6 +9,7 @@ import figma from "../assets/figma1.png";
 import trello from "../assets/trello.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import postgresql from "../assets/postgresql.png"
 
 const Experience = () => {
   const techs = [
@@ -49,21 +50,21 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
     {
-      id: 6,
+      id: 7,
       src: ruby,
       title: "Ruby",
       style: "shadow-gray-400",
     },
     {
-      id: 6,
+      id: 8,
       src: figma,
       title: "Figma",
       style: "shadow-gray-400",
     },
     {
-      id: 6,
-      src: trello,
-      title: "Trello",
+      id: 9,
+      src: postgresql,
+      title: "Postgresql",
       style: "shadow-gray-400",
     }
   ];
