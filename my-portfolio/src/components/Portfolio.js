@@ -43,7 +43,9 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">Check out some of my work right here.In order, i display projects i have worked on since i began my journey in software engineering.
+          From my very first website created using just HTML, CSS and some bit of JavaScript, my second one was created as i practised on HTML,CSS and more onto Javascript.My third one was entirely done using JavaScript to have a clear understanding of the language. The forth one I engaged on it using ReactJS and Tailwind as i had just learned React as a JS library
+          On to the final two projects, i managed to create fullstack applications using react for frontend and ruby on the backend side. I also used postgresql for the databases.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
